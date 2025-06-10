@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolás de Cusa: Vida, Obra y Pensamiento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #1abc9c;
+            --text-color: #ecf0f1;
+            --bg-color: #1e272e;
+            --card-bg-color: #2d3436;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 2px solid var(--accent-color);
+            background: var(--primary-color) url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Nikolaus_von_Kues_-_Detail_Triptychon.jpg/800px-Nikolaus_von_Kues_-_Detail_Triptychon.jpg') no-repeat center center;
+            background-size: cover;
+            background-blend-mode: multiply;
+            color: white;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5em;
+            margin: 0;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 700;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        section {
+            padding: 60px 20px;
+            border-bottom: 1px solid var(--secondary-color);
+        }
+
+        section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            color: var(--accent-color);
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: var(--card-bg-color);
+            border-radius: 8px;
+            padding: 25px;
+            flex: 1 1 300px;
+            min-width: 280px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+
+        .card h3 {
+            color: var(--accent-color);
+            margin-top: 0;
+            font-family: 'Playfair Display', serif;
+        }
+
+        blockquote {
+            font-style: italic;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            margin: 20px 0;
+            color: #bdc3c7;
+        }
+
+        .work-list li {
+            background-color: var(--card-bg-color);
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            list-style-type: none;
+        }
+
+        .work-list a {
+            color: var(--accent-color);
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .work-list a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: var(--primary-color);
+            color: #bdc3c7;
+        }
+
+        footer a {
+            color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nicolás de Cusa</h1>
+        <p>El Vértice entre el Medievo y el Renacimiento</p>
+    </header>
+
+    <nav>
+        <a href="#biografia">Biografía</a>
+        <a href="#contexto">Contexto</a>
+        <a href="#pensamiento">Pensamiento</a>
+        <a href="#influencias">Influencias</a>
+        <a href="#obras">Obras Principales</a>
+        <a href="#recursos">Recursos</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="biografia">
+            <h2>Biografía</h2>
+            <p>Nicolás de Cusa (Nikolaus von Kues, 1401-1464) fue una de las mentes más brillantes del siglo XV, una figura polifacética que destacó como teólogo, filósofo, jurista, matemático y astrónomo. Nacido en Cusa, en el Sacro Imperio Romano Germánico, su vida transcurrió en un período de profunda transición entre el pensamiento medieval escolástico y el humanismo renacentista. Formado en las universidades de Heidelberg, Padua y Colonia, absorbió tanto la tradición mística alemana como el humanismo italiano. Su carrera eclesiástica fue notable, llegando a ser nombrado cardenal. Participó activamente en los debates conciliares de su tiempo y en misiones diplomáticas, buscando siempre la concordia y la unidad, tanto en la Iglesia como en el ámbito del conocimiento.</p>
+        </section>
+
+        <section id="contexto">
+            <h2>Contexto Histórico y Filosófico</h2>
+            <p>El siglo XV fue una era de cambios drásticos. La caída de Constantinopla en 1453 marcó el fin del Imperio Bizantino y provocó un éxodo de eruditos hacia Occidente, trayendo consigo manuscritos y conocimientos griegos. La invención de la imprenta por Gutenberg revolucionó la difusión de las ideas. Filosóficamente, la escolástica tardía comenzaba a mostrar sus límites, mientras el humanismo cívico florecía en Italia, revalorizando al ser humano y los textos clásicos. En este cruce de caminos, Nicolás de Cusa sintetiza elementos del neoplatonismo, la mística de Eckhart y la tradición escolástica para crear una filosofía original que anticipa muchas de las ideas de la modernidad.</p>
+        </section>
+
+        <section id="pensamiento">
+            <h2>Pensamiento Filosófico</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>La Docta Ignorancia (De Docta Ignorantia)</h3>
+                    <p>Es el concepto central de su filosofía. Sostiene que el conocimiento humano es siempre conjetural y aproximativo. Cuanto más aprendemos sobre la realidad finita, más conscientes somos de nuestra incapacidad para comprender a Dios, que es el Infinito absoluto. El verdadero saber consiste en conocer los límites de nuestro propio entendimiento.</p>
+                    <blockquote>"La ciencia, cuanto más docta es, tanto más se conoce a sí misma como ignorante."<br>- De la docta ignorancia</blockquote>
+                </div>
+                <div class="card">
+                    <h3>La Coincidencia de los Opuestos (Coincidentia Oppositorum)</h3>
+                    <p>En Dios, como Infinito, todos los contrarios coinciden. El máximo y el mínimo, la recta y la curva, el centro y la circunferencia se unifican. Utiliza metáforas geométricas para explicarlo: una circunferencia de radio infinito se vuelve indistinguible de una línea recta. Esta idea rompe con la lógica aristotélica de no contradicción y abre la puerta a una nueva forma de pensar la divinidad.</p>
+                    <blockquote>"El muro en cuyo recinto se halla el paraíso está construido con la coincidencia de los opuestos."<br>- La visión de Dios</blockquote>
+                </div>
+                <div class="card">
+                    <h3>Dios, el Universo y el Hombre</h3>
+                    <p>Para Cusa, el universo es la "explicatio" (despliegue) de Dios, y Dios es la "complicatio" (repliegue) de todo lo que existe. El cosmos es un reflejo infinito de Dios, pero de forma contraída y finita. En esta visión, el ser humano es un "microcosmos", un universo en pequeño, con la capacidad única de conocer su propia ignorancia y, a través de ella, acercarse a Dios.</p>
+                    <blockquote>"Dios es, pues, la esfera infinita, cuyo centro está en todas partes y la circunferencia en ninguna."<br>- De la docta ignorancia</blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="influencias">
+            <h2>Influencias Recibidas y Ejercidas</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Influencias Recibidas</h3>
+                    <ul>
+                        <li><strong>Neoplatonismo:</strong> A través de Proclo y, especialmente, del Pseudo Dionisio Areopagita, de quien toma la teología negativa (la idea de que a Dios se le conoce mejor por lo que no es).</li>
+                        <li><strong>Mística Alemana:</strong> La influencia del Maestro Eckhart es palpable en su concepción de la unidad entre el alma y Dios.</li>
+                        <li><strong>Escolástica:</strong> Aunque crítico, su pensamiento está profundamente enraizado en el debate escolástico sobre los universales y la naturaleza de Dios.</li>
+                        <li><strong>Humanismo:</strong> El contacto con el ambiente italiano le proporcionó herramientas filológicas y una revalorización de las fuentes clásicas.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Influencia Ejercida</h3>
+                    <ul>
+                        <li><strong>Giordano Bruno:</strong> Llevó al extremo la idea de un universo infinito y la inmanencia de Dios en el mundo.</li>
+                        <li><strong>Johannes Kepler:</strong> Se inspiró en sus ideas cosmológicas y matemáticas.</li>
+                        <li><strong>G. W. Leibniz:</strong> Retomó conceptos como la armonía y la idea de que cada "mónada" refleja el universo entero.</li>
+                        <li><strong>Idealismo Alemán:</strong> Filósofos como Schelling y Hegel vieron en la "coincidencia de los opuestos" una anticipación de su propia dialéctica.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="obras">
+            <h2>Obras Principales</h2>
+            <p style="text-align:center; max-width: 800px; margin: 0 auto 30px auto;">Las traducciones al español de las obras de Nicolás de Cusa no son abundantes en plataformas de ebooks gratuitos. A continuación, se presentan enlaces a ediciones disponibles en tiendas online, principalmente Amazon, para facilitar su adquisición.</p>
+            <ul class="work-list">
+                <li>
+                    <strong>De la docta ignorancia (1440):</strong> Su obra capital donde expone las bases de su filosofía.
+                    <br>
+                    <a href="https://www.amazon.es/s?k=nicolas+de+cusa+docta+ignorancia" target="_blank">Buscar en Amazon</a>
+                </li>
+                <li>
+                    <strong>Las conjeturas (De coniecturis) (1444):</strong> Desarrolla su teoría del conocimiento como una actividad conjetural.
+                    <br>
+                    <a href="https://www.amazon.es/s?k=nicolas+de+cusa+conjeturas" target="_blank">Buscar en Amazon</a>
+                </li>
+                <li>
+                    <strong>La paz de la fe (De pace fidei) (1453):</strong> Un extraordinario diálogo donde representantes de distintas religiones buscan una fe única en la que todos puedan convenir, escrito tras la caída de Constantinopla.
+                    <br>
+                    <a href="https://www.amazon.es/s?k=nicolas+de+cusa+paz+de+la+fe" target="_blank">Buscar en Amazon</a>
+                </li>
+                 <li>
+                    <strong>La visión de Dios (De visione Dei) (1453):</strong> Un tratado místico sobre cómo "ver" a Dios a través de un ejercicio espiritual con un icono que parece mirar a todos lados.
+                    <br>
+                    <a href="https://www.amazon.es/s?k=nicolas+de+cusa+vision+de+dios" target="_blank">Buscar en Amazon</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="recursos">
+            <h2>Artículos y Fuentes Externas</h2>
+             <h3>Artículos Académicos</h3>
+             <p>Para investigaciones más profundas, la plataforma Academia.edu es un excelente recurso. El siguiente enlace dirige a una búsqueda de trabajos sobre el filósofo:</p>
+             <p style="text-align:center;">
+                <a href="https://www.academia.edu/search?q=Nicol%C3%A1s%20de%20Cusa" target="_blank" class="button">Buscar "Nicolás de Cusa" en Academia.edu</a>
+             </p>
+             
+             <h3>Fuentes de Información Utilizadas</h3>
+             <ul style="list-style: none; padding: 0;">
+                <li><a href="https://plato.stanford.edu/entries/cusanus/" target="_blank">Stanford Encyclopedia of Philosophy: Nicholas of Cusa</a></li>
+                <li><a href="https://www.iep.utm.edu/nicholas-of-cusa/" target="_blank">Internet Encyclopedia of Philosophy: Nicholas of Cusa</a></li>
+                <li>Biografías y manuales de historia de la filosofía renacentista.</li>
+             </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Página de ejemplo generada por IA. Estilo inspirado en la web de <a href="https://jmlucas68.github.io/platon/" target="_blank">jmlucas68</a>.</p>
+    </footer>
+
+</body>
+</html>
